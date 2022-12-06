@@ -1,0 +1,60 @@
+*{margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+color: #fff;
+}
+body {
+background-image: url(../imagenes/fondo3.jpg);
+background-size: 100% 50%;
+min-height: 50vh;
+animation: mov 20s infinite linear alternate;
+background-size: cover;
+  }
+
+  nav{
+    background: #000;
+  }
+  
+  .bg-black {
+    background: #000;
+  }
+  
+  .card-cap:hover {
+    border: 3px solid #eee;
+    cursor: pointer;
+  }
+
+  .card{
+    background: #000;
+  }
+
+  .card:hover{
+    border: 3px solid #eee;
+    cursor: pointer;
+  }
+
+  .flags{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .flags__item{
+    width: 30px;
+  }
+
+  .flags__item {
+    display: block;
+    cursor: pointer;
+  }
+
+/*fondo animado*/
+@keyframes mov {
+  from{
+      background-position: left;
+  }
+  to {
+      background-position: right;
+  }
+}
